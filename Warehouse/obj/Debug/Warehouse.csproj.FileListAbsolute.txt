@@ -1,0 +1,7 @@
+F:\Test\C#\Warehouse\Warehouse\bin\Debug\Warehouse.exe.config
+F:\Test\C#\Warehouse\Warehouse\bin\Debug\Warehouse.exe
+F:\Test\C#\Warehouse\Warehouse\bin\Debug\Warehouse.pdb
+F:\Test\C#\Warehouse\Warehouse\obj\Debug\Warehouse.csprojAssemblyReference.cache
+F:\Test\C#\Warehouse\Warehouse\obj\Debug\Warehouse.csproj.CoreCompileInputs.cache
+F:\Test\C#\Warehouse\Warehouse\obj\Debug\Warehouse.exe
+F:\Test\C#\Warehouse\Warehouse\obj\Debug\Warehouse.pdb
