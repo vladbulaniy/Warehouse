@@ -8,34 +8,11 @@ namespace Warehouse.Data
 {
     public static class CustomDB
     {
-        public static void CreateSupplier<T>(T newSupplier)
-        {
-            List<T> suppliers = new List<T>();
-            suppliers.Add(newSupplier);
-        }
-
         public static List<Supplier> GetSuppliers()
         {
             return suppliers;
         }
-
-        public static List<P> GetPurchases<P>()
-        {
-            Type type = typeof(P);
-
-            var result = new List<P>();
-            if (type.FullName == "OfficeSupplies")
-            {
-                result = officeSupplies as List<P>;
-            }
-
-            if (type.FullName == "ComputerEquipment")
-            {
-                result = computerEquipment as List<P>;
-            }
-            return result;
-        }
-
+        
         public static List<PurchaseOrders> GetPurchaseOrders()
         {
             List<PurchaseOrders> result = new List<PurchaseOrders>();
